@@ -1,0 +1,40 @@
+body {background-color: black}
+h1 {color:rgb(235, 86, 86);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom:0px;
+    }
+img.medium {
+    width:330px;
+    height:330px}
+.center {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 0px;
+    margin-bottom: auto;
+    border-collapse: seperate;
+    border-spacing:30px 0
+}
+td{
+    padding: 10px 0;
+}
+figcaption {
+    color:salmon;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: bolder;
+    text-align:center;
+    font-size:20px;
+}
+h6 {
+    color:white;
+    margin-top:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom:40px;
+}
