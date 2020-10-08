@@ -18,8 +18,25 @@ body{
    border: 20px rgb(16, 0, 37) solid;
 }
 
-img.normal
+#normal
  {z-index: 2;
+   width:200px;
+   height:200px;
+   border-radius: 200px;
+   position: relative;
+   margin-left: 255px;
+   margin-right: auto;
+   margin-bottom:0px ;
+   margin-top: 30px;
+   transition-duration:.5s;
+   cursor: pointer;}
+
+#normal:hover{
+   opacity: 0;
+}
+
+#halloween
+ { z-index: 1;
    width:200px;
    height:200px;
    border-radius: 200px;
@@ -30,21 +47,6 @@ img.normal
    margin-top: 30px;
    transition-duration:.5s;
    cursor: pointer;}
-
-img.normal:hover{
-   opacity: 0;
-}
-
-img.halloween
- { z-index: 1;
-    width:200px;
-    height:200px;
-    border-radius: 200px;
-    position: relative;
-    margin-left:255px;
-    margin-right: auto;
-    margin-bottom:0px ;
-    margin-top: 0px;}
 
  h1,
  h2 {
@@ -58,7 +60,7 @@ img.halloween
 
  h1 {
     font-size: 50px;
-    margin-top: 300px;
+    margin-top: 20px;
     position: relative;
  }
 
