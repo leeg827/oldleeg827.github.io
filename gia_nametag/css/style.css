@@ -18,13 +18,6 @@ body{
    border: 20px rgb(16, 0, 37) solid;
 }
 
-
-img
- {
-    width:200px;
-    height:200px;
-    border-radius: 200px;
- }
 img.normal
  {z-index: 2;
    width:200px;
@@ -65,7 +58,7 @@ img.halloween
 
  h1 {
     font-size: 50px;
-    margin-top: 20px;
+    margin-top: 300px;
     position: relative;
  }
 
