@@ -30,6 +30,7 @@ img {
    position: absolute;
    margin-left:248px;
    margin-top:30px;
+   z-index: 1;
    }
 
 .halloween {
@@ -40,10 +41,12 @@ img {
    margin-left:248px;
    margin-top:30px;
    transition-duration: .5s;
+   z-index:2;
+   opacity:0;
 }
 
-.halloween :hover {
-   opacity: 0;
+.halloween:hover {
+   opacity: 100;
 }
 
  h1,
