@@ -43,11 +43,11 @@ img {
    transition-duration: .5s;
    z-index:2;
    opacity:0;
-   cursor: pointer;
 }
 
 .halloween:hover {
    opacity: 100;
+   cursor: pointer;
 }
 
  h1,
