@@ -17,37 +17,6 @@ body{
    background: linear-gradient(to bottom, #000000 0%,#1f0628 36%,#f77009 100%);
    border: 20px rgb(16, 0, 37) solid;
 }
-
-#normal
- {z-index: 2;
-   width:200px;
-   height:200px;
-   border-radius: 200px;
-   position: relative;
-   margin-left: 255px;
-   margin-right: auto;
-   margin-bottom:0px ;
-   margin-top: 30px;
-   transition-duration:.5s;
-   cursor: pointer;}
-
-#normal:hover{
-   opacity: 0;
-}
-
-#halloween
- { z-index: 1;
-   width:200px;
-   height:200px;
-   border-radius: 200px;
-   position: absolute;
-   margin-left: 255px;
-   margin-right: auto;
-   margin-bottom:0px ;
-   margin-top: 30px;
-   transition-duration:.5s;
-   cursor: pointer;}
-
  h1,
  h2 {
     text-align: center;
