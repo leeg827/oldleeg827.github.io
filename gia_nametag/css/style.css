@@ -31,12 +31,10 @@ body{
 
 .container span:first-child {
    background-image: url(../images/normal.jpg);
-   z-index:2;
 }
 
-.container span:nth-child(2){
+.container span:first-child :hover {
    background-image:url(../images/profile2.JPG);
-   z-index:1;
 }
 
  h1,
