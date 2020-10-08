@@ -18,24 +18,26 @@ body{
    border: 20px rgb(16, 0, 37) solid;
 }
 
-.container {
-   text-align: center;
-}
-
-.container span {
-   width: 200 px;
-   height: 200 px;
+img {
+   width:200 px;
+   height: 200px;
    border-radius: 100%;
-   margin: 0;
+}
+.normal {
+   width:200 px;
+   height: 200px;
+   border-radius: 100%;
+   position: relative;
+   }
+
+.halloween {
+   width:200 px;
+   height: 200px;
+   border-radius: 100%;
+   position: relative;
+
 }
 
-.container span:first-child {
-   background-image: url(../images/normal.jpg);
-}
-
-.container span:first-child :hover {
-   background-image:url(../images/profile2.JPG);
-}
 
  h1,
  h2 {
