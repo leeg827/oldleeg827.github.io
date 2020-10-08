@@ -25,17 +25,18 @@ body{
 .container span {
    width: 200 px;
    height: 200 px;
-   display: inline-block;
    border-radius: 100%;
    margin: 0;
 }
 
 .container span:first-child {
-   background-image: url(../images/normal.jpg)
+   background-image: url(../images/normal.jpg);
+   z-index:2;
 }
 
 .container span:nth-child(2){
-   background-image:url(../images/profile2.JPG)
+   background-image:url(../images/profile2.JPG);
+   z-index:1;
 }
 
  h1,
