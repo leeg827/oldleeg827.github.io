@@ -37,18 +37,17 @@
       margin-bottom:0px ;
       margin-top: 30px;
       transition: ease-in .5s;
-      z-index: 2;
+      z-index: 3;
    }
    img.halloween{
       position: absolute;
       width:200px;
       height:200px;
       border-radius: 200px;
-      position: relative;
       margin-left:255px;
       margin-right: auto;
       margin-bottom:0px ;
-      margin-top: 30px;
+      margin-top: -200px;
       z-index: 1;
    }
 
@@ -129,7 +128,7 @@
 
     h1 {
        font-size: 50px;
-       margin-top: 20px;
+       margin-top: 30px;
        position: relative;
     }
 
