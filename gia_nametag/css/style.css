@@ -21,11 +21,6 @@
    
    .profile{
       position: relative;
-      width:200;
-      height:200;
-      border-radius: 200;
-      display: inline-block;
-      z-index: 5;
    }
    img.normal{
       width:200px;
