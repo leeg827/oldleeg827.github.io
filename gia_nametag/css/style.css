@@ -10,6 +10,7 @@
     overflow: hidden;
     box-sizing: border-box;
     transition-duration: 1s;
+    z-index: 0;
     }
 
    #nametag-container:hover {
@@ -17,9 +18,71 @@
       background: linear-gradient(to bottom, #000000 0%,#1f0628 36%,#f77009 100%);
       border: 20px rgb(16, 0, 37) solid;
    }
+   
+   .profile{
+      position: relative;
+      width:200;
+      height:200;
+      border-radius: 200;
+      display: inline-block;
+      z-index: 5;
+   }
+   img.normal{
+      width:200px;
+      height:200px;
+      border-radius: 200px;
+      position: relative;
+      margin-left:255px;
+      margin-right: auto;
+      margin-bottom:0px ;
+      margin-top: 30px;
+      transition: ease-in .5s;
+      z-index: 2;
+   }
+   img.halloween{
+      position: absolute;
+      width:200px;
+      height:200px;
+      border-radius: 200px;
+      position: relative;
+      margin-left:255px;
+      margin-right: auto;
+      margin-bottom:0px ;
+      margin-top: 30px;
+      z-index: 1;
+   }
 
+   .profile:hover img.normal{
+      opacity:0
+   }
+   
+   .profile:hover img.halloween{
+      opacity:1
+   }
+   
+   /*img.normal{
+      position: relative;
+      top:0;
+      z-index: 1;
+      width:200;
+      height:200;
+      border-radius: 200;
+   }
 
-   img
+   .normal:hover{
+      opacity: 0;
+   }
+
+   .halloween{
+      position:relative;
+      top:0;
+      z-index: 0;
+      width:200;
+      height:200;
+      border-radius: 200
+   }*/
+
+  /* img
     {
        width:200px;
        height:200px;
@@ -39,7 +102,7 @@
       cursor: pointer;}
    
   img.profile:hover{
-      opacity: 0;
+      opacity: 100;
    }
 
    img.halloween
@@ -52,6 +115,7 @@
        margin-right: auto;
        margin-bottom:0px ;
        margin-top: 30px;}
+       */
 
     h1,
     h2 {
