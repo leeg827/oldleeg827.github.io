@@ -21,13 +21,15 @@ body{
 img {
    width:200 px;
    height: 200px;
-   border-radius: 100%;
+   border-radius: 200px;
 }
 .normal {
    width:200 px;
    height: 200px;
-   border-radius: 100%;
-   position: relative;
+   border-radius: 200px;
+   position: absolute;
+   margin-left:248px;
+   margin-top:30px;
    }
 
 .halloween {
@@ -35,9 +37,14 @@ img {
    height: 200px;
    border-radius: 100%;
    position: relative;
-
+   margin-left:248px;
+   margin-top:30px;
+   transition-duration: .5s;
 }
 
+.halloween :hover {
+   opacity: 0;
+}
 
  h1,
  h2 {
@@ -51,12 +58,13 @@ img {
 
  h1 {
     font-size: 50px;
-    margin-top: 200px;
+    margin-top: 30px;
     position: relative;
+    margin-bottom:0px;
  }
 
  h2 {
-    margin-top:10px;
+    margin-top:0px;
     font-size: 30px;
  }
  
