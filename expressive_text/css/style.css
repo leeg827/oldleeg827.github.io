@@ -189,6 +189,7 @@ section{
     transition-duration:.5s;
     font-size:50px;
     margin: 30px auto;
+    cursor: pointer;
 }
 #part-3 p:nth-child(2):hover{
     color: rgb(255, 208, 30);
@@ -199,6 +200,7 @@ section{
     transition-duration:.5s;
     font-size:10px;
     margin: 30px auto;
+    cursor: pointer;
 }
 #part-3 p:nth-child(3):hover{
     color: rgb(255, 208, 30);
@@ -209,6 +211,7 @@ section{
     transition-duration:.5s;
     font-size:50px;
     margin: 30px auto;
+    cursor: pointer;
 }
 #part-3 p:nth-child(4):hover{
     color: rgb(255, 208, 30);
@@ -219,6 +222,7 @@ section{
     transition-duration:.5s;
     font-size:10px;
     margin: 30px auto;
+    cursor: pointer;
 }
 #part-3 p:nth-child(5):hover{
     color: rgb(255, 208, 30);
@@ -229,6 +233,7 @@ section{
     transition-duration:.5s;
     font-size:50px;
     margin: 30px auto;
+    cursor: pointer;
 }
 
 #part-3 p:nth-child(6):hover{
@@ -240,6 +245,7 @@ section{
     transition-duration:.5s;
     font-size:10px;
     margin: 30px auto;
+    cursor: pointer;
 }
 
 #part-3 p:nth-child(7):hover{
