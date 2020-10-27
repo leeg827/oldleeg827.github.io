@@ -161,3 +161,17 @@ ul {
 p{
     font-size:13px;
 }
+
+/* Tablet */ 
+@media (max-width:1024) {
+    body{
+        background-color:blue;
+    }
+}
+
+/* Mobile */ 
+@media (max-width:768) {
+    body{
+        background-color:rgb(255, 94, 0);
+    }
+}
