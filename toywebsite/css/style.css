@@ -1,0 +1,294 @@
+body{
+    margin:0px;
+    background-color:rgb(5, 12, 26);
+}
+
+body.background-image {
+    width:100%;
+    height:100%;
+    transition: opacity 0.3 ease-in-out;
+    opacity:1
+}
+
+#container {
+    display:inline-flex;
+    flex-direction:row;
+    height:100%;
+}
+
+#rightspace {
+height:100%;
+width:270px;
+margin:0px;
+background-color:transparent;
+}
+
+#cradel {
+height:100%;
+width:900px;
+margin:0px;
+background-color:transparent;
+display:inline-flex;
+flex-direction:column;
+}
+
+#cradeltop {
+    position:relative;
+    height:30%;
+    width: 100%;
+    margin:0px;
+    background-color:transparent;
+
+}
+
+#cradeltopimg {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 0% 10%;
+}
+
+#cradelstrings {
+    position:relative;
+    height:70%;
+    width:100%;
+    margin:0px;
+    background-color:transparent;
+    display:inline-flex;
+    flex-direction:row;
+}
+
+#cloudstring {
+    position:relative;
+    height:75%;
+    width:33%;
+    margin:0px;
+    background-color:transparent;
+    display:inline-flex;
+    flex-direction: column;
+
+}
+
+#cloud {
+    position:relative;
+    height:50%;
+    width:100%;
+    margin:0px;
+    background-color:transparent;
+
+}
+
+#cloudbutton {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 0px;
+    background: transparent;
+    overflow: hidden;
+}
+
+#cloudimg {
+    position: relative;
+    height: auto;
+    width: 75%;
+    margin: -2% 20% 0% 20%;
+    object-fit: cover;
+}
+
+#rain {
+    position:relative;
+    height:50%;
+    width:100%;
+    margin:0px;
+    display:inline-flex;
+    flex-direction:row;
+}
+
+#drop1 {
+    position:relative;
+    height:100%;
+    margin:0px;
+    width:40%;
+    background-color:transparent;
+}
+
+#drop1img {
+    position: relative;
+    height: 150%;
+    width: 170;
+    margin: -11% 20px;
+}
+
+#drop2 {
+    position: relative;
+    height: 100%;
+    margin: -12 0px;
+    width: 33%;
+    background-color: transparent;
+}
+
+#rainbutton {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color:transparent;
+    border:0px;
+    overflow: hidden;
+}
+
+#drop2img {
+    position: relative;
+    height: 150%;
+    width: 250%;
+    margin: -10% -60%;
+}
+
+#drop3 {
+    position: relative;
+    height: 100%;
+    width: 27%;
+    margin: 0px;
+}
+
+#drop3img {
+    position: relative;
+    height: 150%;
+    width: 220%;
+    margin: -22% -66%;
+}
+
+#catstring {
+    position:relative;
+    height:90%;
+    width:33%;
+    margin:0px;
+    background-color:transparent;
+    display:inline-flex;
+    flex-direction:column;
+}
+
+#cat {
+    position:relative;
+    height:50%;
+    width:100%;
+    margin:0px;
+    background-color:transparent;
+}
+
+#catimg {
+    position: relative;
+    height: 120%;
+    width: 130%;
+    margin: -2% -13%;
+}
+
+#rectangle {
+    position:relative;
+    height:50%;
+    width:100%;
+    margin:0px;
+    background-color:transparent;
+}
+
+#rectangleimg {
+    position: relative;
+    width: 70%;
+    height: 130%;
+    margin: 0px 21%;
+}
+
+#moonstring {
+    position:relative;
+    height:90%;
+    width:34%;
+    margin:0px;
+    background-color:transparent;
+}
+
+#moon {
+    position:relative;
+    height:50%;
+    width:100%;
+    margin:0px;
+    background-color:transparent;
+}
+
+#moonimg {
+    position: relative;
+    height: 140%;
+    width: 130%;
+    margin: 0% -16%;
+}
+
+#starcluster {
+    position:relative;
+    height:50%;
+    width:100%;
+    margin:0px;
+    background-color:transparent;
+    display:inline-flex;
+    flex-direction:row;
+}
+
+#star1 {
+    position:relative;
+    height:100%;
+    width:33%;
+    margin:0px;
+    background-color:transparent;
+}
+
+#star1img {
+    position: relative;
+    height: 160%;
+    width: 195%;
+    margin: -22% -25%;
+}
+
+#star2 {
+    position: relative;
+    height: 100%;
+    width: 25%;
+    margin: -7% 0px;
+    background-color:transparent;
+}
+
+#starbutton {
+    position:relative;
+    height:100%;
+    height:100%;
+    overflow:hidden;
+    background-color:transparent;
+    border:0px;
+}
+
+
+#star2img {
+    position: relative;
+    width: 300%;
+    margin: -10% -83%;
+    height: 170%;
+}
+
+#star3 {
+    position:relative;
+    height:100%;
+    width:34%;
+    margin:0px;
+    background-color:transparent;
+}
+
+#star3img {
+    position: relative;
+    height: 150%;
+    width: 170%;
+    margin: -18px -36;
+}
+
+#leftspace {
+height:100%;
+width:270px;
+margin:0px;
+background-color:transparent;
+}
