@@ -1,7 +1,7 @@
 window.addEventListener("load", function() {
 
     function cloudSky(){
-       document.body.style.backgroundImage = "url('images/clouds 2.GIF')"
+       document.body.style.backgroundImage = "url('images/clouds 2.GIF')";
     }
  
     document.getElementById("cloudbutton").addEventListener("click",cloudSky)
@@ -60,19 +60,22 @@ window.addEventListener("load", function() {
 
     document.getElementById("return").addEventListener("click",normal)
 
-    var audio = document.getElementById("backgroundmusic");
+    var audio = document.getElementById("music")
+    var playPauseBTN = document.getElementById("volume")
     var count = 0;
 
     function playPause(){
-        if (count ==0){
+        if (count==0){
             count = 1;
             audio.play();
-        } else {
-            count = 0;
+            document.getElementById("volume").style.backgroundImage = "url(images/sound.png"
+        }else{
+            count=0;
             audio.pause();
+            document.getElementById("volume").style.backgroundImage = "url(images/nosound.png"
         }
     }
 
-   document.getElementById("volume").addEventListener("click",playPause)
+    document.getElementById("volume").addEventListener("click", playPause)
 
  });
