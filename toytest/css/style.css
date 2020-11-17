@@ -1,22 +1,267 @@
 body {
+    height:1024px;
+    width:1440px;
+    margin:0px;
+    background-color:rgb(17, 16, 29);
+    background-image:url("../images/default.png");
 }
 
-#photo {
-    width:200px;
-    height:200px;
-    color:blue;
-    position:absolute
+#audio {
+    display:none;
 }
 
- #backgroundbutton {
-    width:300px;
+#container {
+    display: inline-flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#rightaside {
+    width: 293px;
+    height: 100%px;
+    display:inline-flex;
+    flex-direction:row;
+}
+
+#return {
+    z-index: 2;
+    width: 43px;
+    margin-top: 35px;
+    height: 43px;
+    background-image:url("../images/return.png");
+    background-color:transparent;
+    border:none;
+    background-repeat: no-repeat;
+    outline:none;
+}
+
+#volume {
+    z-index: 2;
+    width: 40px;
+    margin-top: 35px;
+    height: 40px;
+}
+
+#cradel {
+    height:100%;
+    width:856px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#cradeltop {
+    width:100%;
+    height:208px;
+}
+
+#cradelpicture {
+    margin: 0px -290;
+}
+
+#cradelstrings{
+    width:100%;
+    height:816px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#cloudstring {
+    width:256px;
+    height:100%;
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+#cloud {
+    width:100%;
+    height:352px;
+}
+
+#cloudbutton {
+    width:100%;
+    height:100%;
+    position:relative;
+    background-color:transparent;
+    border:none;
+    z-index:2;
+    outline:none;
+}
+
+#cloudimage {
+    margin: -221px -8px;
+}
+
+#rainstorm {
+    width: 100%;
+    height:546px;
+    display:inline-flex;
+    flex-direction:row;
+}
+
+#rain1 {
+    width:107px;
+    height:222px;
+}
+
+#rain2 {
+    width:62px;
+    height:238px;
+}
+
+#rainimage2 {
+    margin: -540px -290px;
+}
+
+#rainimage {
+    margin: -200px;
+}
+#rainbutton {
+    width:100%;
+    height:100%;
+    background-color:transparent;
+    border:none;
+    z-index:2;
+    outline:none;
+}
+
+#rain3 {
+    width:88px;
+    height:238px;
+}
+
+#rainimage3 {
+    margin: -92px 0px
+}
+
+#catstring {
+    width: 345px;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#cat {
+    width:100%;
+    height:352px;
+}
+
+#catimage {
+    margin: -90px 5px;
+}
+
+#rectangle {
+    width:100%;
+    height:370px;
+}
+
+#rectangle1 {
+    margin: -33px 125px;
+}
+
+#moonstring {
+    width:256px;
+    height:100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#moon {
+    width:100%;
+    height:352px;
+}
+
+#moonimage {
+    margin: -43px 15px;
+}
+
+#starcluster {
+    width: 100%;
     height:300px;
-    background-image: url("images/image.png");
+    display:inline-flex;
+    flex-direction:row;
 }
+
+#star1 {
+    width:90px;
+    height:222px;
+}
+
+#star1image {
+    margin: -110px 4px;
+}
+
+#star2 {
+    width:90px;
+    height:238px;
+}
+
+#starbutton {
+    width:100%;
+    height:100%;
+    border:none;
+    background-color:transparent;
+    outline:none;
+}
+
+#star2image {
+    margin: -167px;
+}
+
+#star3 {
+    width: 150px;
+    height: 238px;
+}
+
+#star3image {
+    margin: -64px 2px;
+}
+
+#leftaside {
+    width: 293px;
+    height: 100%;
+}
+
+
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(2deg);}
+    50%{-webkit-transform: rotate(-2deg)}
+    100%{-webkit-transform: rotate(2deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(2deg);}
+    50%{transform: rotate(-2deg)}
+    100%{transform: rotate(2deg);}
+}
+ 
+.swingimage{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+*/
+
 
 /*
-#backgroundchangebutton {
-    width:300px;
-    height:300px;
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(5deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(5deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(5deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(5deg);}
+}
+ 
+.swingimage{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
 }
 */

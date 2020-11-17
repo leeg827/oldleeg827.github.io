@@ -2,7 +2,6 @@ window.addEventListener("load", function() {
 
    function cloudSky(){
       document.body.style.backgroundImage = "url('images/cloudplaceholder.png')"
-      document.body.style.backgroundImage.width="100%"
    }
 
    document.getElementById("cloud").addEventListener("click",cloudSky)
@@ -18,4 +17,5 @@ window.addEventListener("load", function() {
    }
 
    document.getElementById("drop2").addEventListener("click",rainSky)
+
 });
