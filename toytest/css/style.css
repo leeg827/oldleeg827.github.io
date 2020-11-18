@@ -248,5 +248,9 @@ body {
     animation: swinging 3.5s ease-in-out forwards infinite;
 }
 
+button img {
+    pointer-events: none;
+}
+
 
 
