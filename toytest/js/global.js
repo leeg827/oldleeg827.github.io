@@ -9,14 +9,20 @@ window.addEventListener("load", function() {
  
     document.getElementById("cloudbutton").addEventListener("click",cloudSky)
  
-    function starSky(){
+    function starSky(e){
        document.body.style.backgroundImage = "url('images/stars.GIF";
+       var button = e.target;
+       var music = button.dataset.music;
+       switchClip(music);
     }
  
     document.getElementById("starbutton").addEventListener("click",starSky)
 
-    function rain(){
+    function rain(e){
         document.body.style.backgroundImage = "url('images/rain.GIF";
+        var button = e.target;
+        var music = button.dataset.music;
+        switchClip(music);
      }
   
      document.getElementById("rainbutton").addEventListener("click",rain)
