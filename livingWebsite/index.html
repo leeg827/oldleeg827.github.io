@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Hi, I'm Gia</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/global.js"></script>     
+    </head>
+    <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+        <nav>
+            <div id="space"></div>
+            <ul class="navlinks">
+                <li><a href="Link">✦ Portfolio ✦</a></li>
+                <li><a href="Link">✦ About ✦</a></li>
+                <li><a href="Link">✦ Contact ✦</a></li>
+            </ul>
+        </nav>
+        <div id="window1">
+        <h1 id="maingia">GIA LEE</h1>
+        </div>
+        <div id="presentgia">
+            <blockquote class="firsthello">HELLO, I'M GIA</blockquote>
+            <img src="images/cat.jpeg" id="cat"></img>
+            <img src="images/cloud.jpg" id="clouds"></img>
+            <img src="images/drink.jpg" id="drink"></img>
+            <blockquote class="firstabout"> a Sophomore Communication Design Student at the New School. I am currently studying in Portland, Oregon as a result of the Pandemic. The reason why I went into Communication Design is because I am interested in the UI/UX design field. Outside of school, I enjoy drinking iced peach tea, eating delicious takeout with my family, and playing with my cat.
+            </blockquote>
+            <blockquote class="sophomoreyear">2021-2020</blockquote>
+        </div>
+        <div id="freshmengia">
+            <blockquote id="secondhello">HELLO, I'M GIA</blockquote>
+            <img src="images/fog.jpg" id="fog"><img>
+            <img src="images/windows.jpg" id="windows"></img>
+            <img src="images/corner.PNG" id="corner"></img>
+            <blockquote id="secondabout">a Freshman Communication Design Student at the New School. I am currently studying in New York CIty, New York. The reason why I went into Communication design is because I am interested in the UI/UX design field. Outside of school, I enjoy drinking peach bubble tea with lychee popping boba, exploring the city with my friends, and looking at artowrk in the Metropolitan Museum of Art.</blockquote>
+            <blockquote class="freshmenyear">2020-2019</blockquote>
+        </div>
+        <div id="hsseniorgia">
+            <blockquote id="thirdhello">HELLO, I'M GIA</blockquote>
+            <img src="images/golden.jpg" id="golden"></img>
+            <img src="images/night.jpg" id="night"></img>
+            <blockquote id="thirdabout">a Senior at Clackamas High School planning on attending at the New School. I am currently studying in Portland, Oregon. The reason why I went into Communication Design is because I am interested i the UI/UX design field. Outside of school, I enjoy drinking peach bubble tea with lychee popping boba, spending time with my family, and exploring Portland.</blockquote>
+            <blockquote class="hssenioryear">2019-2018</blockquote>
+        </div>
+        <script>
+            gsap.timeline({
+            scrollTrigger: {
+            trigger:"#presentgia",
+            start:"center center",
+            end:"bottom top",
+            markers : true,
+            scrub : true,
+            pin :true,
+            delay:.5
+            } })
+            .from (".sophomoreyear",{y : innerHeight *1})
+            .from (".firsthello", {opacity: 0})
+            .from ("#cat",{opacity:0})
+            .from ("#drink",{opacity:0})
+            .from ("#clouds",{opacity:0})
+            .from (".firstabout", {x : innerWidth *1, 
+            duration:.5,})
+
+            gsap.timeline({
+            scrollTrigger: {
+            trigger:"#freshmengia",
+            start:"center center",
+            end:"bottom top",
+            markers : true,
+            scrub : true,
+            pin :true,
+            delay:.5
+            } })
+            .from (".freshmenyear",{y : innerHeight *1})
+            .from ("#secondhello", {opacity: 0})
+            .from ("#fog",{opacity:0})
+            .from ("#windows",{opacity:0})
+            .from ("#corner",{opacity:0})
+            .from ("#secondabout", {x : innerWidth *1, 
+            })
+
+            gsap.timeline({
+            scrollTrigger: {
+            trigger:"#hsseniorgia",
+            start:"center center",
+            end:"bottom top",
+            markers : true,
+            scrub : true,
+            pin :true,
+            delay:.5
+            } })
+            .from (".hssenioryear",{y : innerHeight *1})
+            .from ("#thirdhello", {opacity: 0})
+            .from ("#golden",{opacity:0})
+            .from ("#night",{opacity:0})
+            .from ("#thirdabout", {x : innerWidth *1, 
+            duration:.5,})
+
+    </script>
+    </body>
+</html>
