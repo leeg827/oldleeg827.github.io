@@ -14,7 +14,6 @@ nav {
     position: relative;
     margin: 0px;
     width: 60vw;
-    height: 100%
 }
 
 .navlinks {
@@ -28,7 +27,7 @@ nav {
   text-decoration:none;
   color:white;
   font-family:Helvetica;
-  font-size:2vw;
+  font-size:1.5vw;
   margin:0px;
 }
 
@@ -151,6 +150,7 @@ body {
   font-size: 5vw;
   position: absolute;
   width: 27.77777777777778vw;
+  margin-left:2vw;
   text-align: left;
 }
 
@@ -217,6 +217,7 @@ body {
 
 #thirdhello {
   margin-top: 5vw;
+  margin-left:3vw;
   font-family: helvetica,arial,sans-serif;
   color: white;
   font-size: 5vw;

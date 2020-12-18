@@ -1,0 +1,73 @@
+nav {
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100vw;
+    height:7vh;
+    position:fixed;
+    z-index:999;
+}
+
+
+#space {
+    position: relative;
+    margin: 0px;
+    width: 45vw;
+}
+
+#portfolio{
+    position:relative;
+    width: 15vw;
+    font-size:2vw;
+    color:white;
+    font-family:Helvetica;
+    margin:0px;
+    padding:1vw;
+}
+
+.navlinks {
+  display:flex;
+  justify-content:space-around;
+  list-style:none;
+  width:40vw;
+}
+
+.navlinks a{
+    text-decoration:none;
+    color:white;
+    font-family:Helvetica;
+    font-size:1.5vw;
+    margin:0px;
+}
+  
+.navlinks a:hover {
+    color:rgb(255, 141, 141);
+    font-family:Helvetica;
+    font-size: 2.1vw;;
+    margin:0px;
+    transition:.5s ease-in-out;
+}
+
+body {
+    background: conic-gradient(from 180deg at 52.36% 51.17%, rgba(159, 180, 255, 0.86) -50.63deg, #FFA5B0 56.25deg, rgba(105, 113, 187, 0.87) 161.24deg, rgba(159, 180, 255, 0.86) 309.38deg, #FFA5B0 416.25deg);
+    margin:0px;
+}
+
+p {
+    font-family:helvetica;
+    font-size:2vw;  
+    color:white;
+    width:50vw;
+    padding-top:30vh;
+    padding-left:8vw;
+}
+
+#contact {
+    font-family:helvetica;
+    font-size:4vw;  
+    color:white;
+    width:60vw;
+    padding-top:43vh;
+    padding-left:8vw;   
+}
