@@ -191,8 +191,154 @@ h1 {
     font-family:helvetica;
     font-weight:bold;
     color:white;
-    width:20vw;
     margin-top:5vh;
     margin-left:87vw;
     font-size:2.5vw;
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+
+    #matchbox {
+        width:30vw;
+        height:35vh;
+        background-image: url("../images/matchbox.png");
+        background-size:30vw 35vh;
+        background-position:center;
+    }
+    
+    #sushi {
+        width:30vw;
+        height:35vh;
+        background-image: url("../images/sushi.png");
+        background-size:30vw 60vh;
+        background-position:center;
+    }
+    
+    #book {
+        width:30vw;
+        height:35vh;
+        background-image: url("../images/book.png");
+        background-size:30vw 35vh;
+        background-position:center;
+    }
+
+    #hands {
+        width:25vw;
+        height:40vh;
+        background-image: url("../images/hands.jpg");
+        background-size:25vw 55vh;
+        background-position:center;
+    }
+    
+    #bath{
+        width:25vw;
+        height:40vh;
+        background-image: url("../images/bath.png");
+        background-size:25vw 80vh;
+        background-position:center;
+    }
+    
+    #iseeyou {
+        width:25vw;
+        height:40vh;
+        background-image: url("../images/iseeyou.jpg");
+        background-size:25vw 55vh;
+        background-position:center;
+    }
+
+    .artclass {
+        font-size:1.3vw;
+        font-weight:lighter;
+        font-family:helvetica;
+        margin-top:1vh;
+        color:white;
+        width:20vw;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    #allhtml {
+        width:30vw;
+        height:25vh;
+        background-image: url("../images/allhtml.png");
+        background-size:30vw 30vh;
+    }
+    
+    #mockup {
+        width:30vw;
+        height:25vh;
+        background-image: url("../images/mockup.png");
+        background-size:30vw 25vh;
+    }
+    
+    #mobile {
+        width:30vw;
+        height:25vh;
+        background-image: url("../images/mobile.png");
+        background-size:35vw 25vh;
+        background-position:center;
+    }
+
+    #matchbox {
+        width:30vw;
+        height:20vh;
+        background-image: url("../images/matchbox.png");
+        background-size:30vw 20vh;
+        background-position:center;
+    }
+    
+    #sushi {
+        width:30vw;
+        height:20vh;
+        background-image: url("../images/sushi.png");
+        background-size:30vw 40vh;
+        background-position:center;
+    }
+    
+    #book {
+        width:30vw;
+        height:20vh;
+        background-image: url("../images/book.png");
+        background-size:30vw 20vh;
+        background-position:center;
+    }
+
+    #hands {
+        width:25vw;
+        height:33vh;
+        background-image: url("../images/hands.jpg");
+        background-size:25vw 40vh;
+        background-position:center;
+    }
+    
+    #bath{
+        width:25vw;
+        height:33vh;
+        background-image: url("../images/bath.png");
+        background-size:25vw 60vh;
+        background-position:center;
+    }
+    
+    #iseeyou {
+        width:25vw;
+        height:33vh;
+        background-image: url("../images/iseeyou.jpg");
+        background-size:25vw 40vh;
+        background-position:center;
+    }
+
+    .artclass {
+        font-size:1.5vw;
+        font-weight:lighter;
+        font-family:helvetica;
+        margin-top:1vh;
+        color:white;
+        width:20vw;
+    }
+
 }

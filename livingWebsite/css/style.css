@@ -96,7 +96,7 @@ body {
 #cat {
   position: absolute;
   width: 14vw;
-  height: 15vw;
+  height: 30vh;
   left: 48vw;
   margin-top:68vh;
   box-shadow: inset 0px 4px 4px 122px rgba(255, 131, 61, 0.25);
@@ -106,7 +106,7 @@ body {
 #clouds {
   position: absolute;
   width: 14vw;
-  height: 20vw;
+  height: 35vh;
   left: 48vw;
   z-index: 1;
   margin-top: 10vh;
@@ -115,7 +115,7 @@ body {
 #drink {
   position: absolute;
   width: 14.5vw;
-  height: 20vw;
+  height: 35vh;
   margin-left: 37vw;
   z-index: 2;
   margin-top: 40vh;
@@ -159,7 +159,7 @@ body {
   height: 20vh;
   margin-left:13vw;
   position:absolute;
-  margin-top:-14vh;
+  margin-top:-16vh;
   z-index:2;
   color: white;
   font-size:1.1vw;
@@ -169,14 +169,14 @@ body {
 #fog {
   position: absolute;
   width: 15vw;
-  height: 19vw;
+  height: 40vh;
   left: 10vw;
   margin-top:65vh;
 }
 
 #windows {
   width: 25vw;
-  height: 12vw;
+  height: 25vh;
   margin-left:75vw;
   margin-top:100px;
   margin-bottom:0px;
@@ -185,7 +185,7 @@ body {
 #corner {
   position: absolute;
   width: 20vw;
-  height: 18vw;
+  height: 35vh;
   z-index: 3;
   object-fit: cover;
   margin-top: 48vh;
@@ -229,7 +229,7 @@ body {
 #golden {
   position:absolute;
   width:18vw;
-  height:18vw;
+  height:35vh;
   margin-top:19vw;
   margin-left:70vw;
   z-index:2;
@@ -238,7 +238,7 @@ body {
 #night {
   position:absolute;
   width:15vw;
-  height:22vw;
+  height:41vh;
   margin-top:29vw;
   margin-left:60vw;
 }
@@ -265,4 +265,298 @@ body {
   position: absolute;
   margin-left: -22vh;
   margin-top: 78vh;
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+.firstabout {
+    width: 40vw;
+    height:20vh;
+    z-index: 2;
+    color: #FFD8D8;
+    font-family: helvetica, sans-serif,arial;
+    margin-left: 51vw;
+    margin-top: 49vh;
+    font-size:1.5vw;
+    position:absolute;
+}
+
+.sophomoreyear {
+  color: rgb(255, 204, 204);
+  font-family: helvetica;
+  font-weight: bold;
+  font-size:8vh;
+  width: 60vh;
+  transform: rotate(90deg);
+  position: absolute;
+  margin-left: -22vh;
+  margin-top: 84vh;
+}
+
+#cat {
+  position: absolute;
+  width: 18vw;
+  height: 30vh;
+  left: 43vw;
+  margin-top:68vh;
+  box-shadow: inset 0px 4px 4px 122px rgba(255, 131, 61, 0.25);
+  object-fit: cover;
+}
+
+#clouds {
+  position: absolute;
+  width: 18vw;
+  height: 35vh;
+  left: 43vw;
+  z-index: 1;
+  margin-top: 10vh;
+}
+
+#drink {
+  position: absolute;
+  width: 18vw;
+  height: 35vh;
+  margin-left: 32vw;
+  z-index: 2;
+  margin-top: 40vh;
+}
+
+#secondabout {
+  width: 35vw;
+  height: 20vh;
+  margin-left:12vw;
+  position:absolute;
+  margin-top:-24vh;
+  z-index:2;
+  color: white;
+  font-size:1.5vw;
+ font-family: helvetica, sans-serif,arial;
+}
+
+.freshmenyear {
+  color: white;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size:8vh;
+  width: 65vh;
+  position: absolute;
+  transform:rotate(90deg);
+  margin-top: 45vh;
+  margin-left:70vw;
+}
+
+#fog {
+  position: absolute;
+  width: 20vw;
+  height: 40vh;
+  left: 10vw;
+  margin-top:65vh;
+}
+
+#windows {
+  width: 35vw;
+  height: 25vh;
+  margin-left:64vw;
+  margin-top:100px;
+  margin-bottom:0px;
+}
+
+#corner {
+  position: absolute;
+  width: 25vw;
+  height: 35vh;
+  z-index: 3;
+  object-fit: cover;
+}
+
+#thirdabout {
+  width: 35vw;
+  height: 20vh;
+  margin-left:13vw;
+  position:absolute;
+  z-index: 2;
+  font-size:1.5vw;
+  color: white;
+  font-family: helvetica, sans-serif,arial;
+  margin-top:11vw;
+}
+
+.hssenioryear {
+  color: white;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size:8vh;
+  width: 60vh;
+  transform: rotate(90deg);
+  position: absolute;
+  margin-left: -22vh;
+  margin-top: 84vh;
+}
+
+#golden {
+  position:absolute;
+  width:25vw;
+  height:35vh;
+  margin-top:29vw;
+  margin-left:70vw;
+  z-index:2;
+}
+
+#night {
+  position:absolute;
+  width:20vw;
+  height:43vh;
+  margin-top:40vw;
+  margin-left:60vw;
+}
+
+}
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .firstabout {
+    width: 40vw;
+    height:20vh;
+    z-index: 2;
+    color: #FFD8D8;
+    font-family: helvetica, sans-serif,arial;
+    margin-left: 51vw;
+    margin-top: 49vh;
+    font-size:1.7vw;
+    position:absolute;
+}
+
+.sophomoreyear {
+  color: rgb(255, 204, 204);
+  font-family: helvetica;
+  font-weight: bold;
+  font-size:7vh;
+  width: 60vh;
+  transform: rotate(90deg);
+  position: absolute;
+  margin-left: -25vh;
+  margin-top: 90vh;
+}
+
+#cat {
+  position: absolute;
+  width: 23vw;
+  height: 30vh;
+  left: 43vw;
+  margin-top:68vh;
+  box-shadow: inset 0px 4px 4px 122px rgba(255, 131, 61, 0.25);
+  object-fit: cover;
+}
+
+#clouds {
+  position: absolute;
+  width: 23vw;
+  height: 35vh;
+  left: 43vw;
+  z-index: 1;
+  margin-top: 10vh;
+}
+
+#drink {
+  position: absolute;
+  width: 25vw;
+  height: 35vh;
+  margin-left: 25vw;
+  z-index: 2;
+  margin-top: 40vh;
+}
+
+#secondabout {
+  width: 35vw;
+  height: 20vh;
+  margin-left:12vw;
+  margin-top:-27vh;
+  position:absolute;
+  z-index:2;
+  color: white;
+  font-size:1.7vw;
+ font-family: helvetica, sans-serif,arial;
+}
+
+.freshmenyear {
+  color: white;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size:7vh;
+  width: 65vh;
+  position: absolute;
+  transform:rotate(90deg);
+  margin-top: 53vh;
+  margin-left:63vw;
+}
+
+#fog {
+  position: absolute;
+  width: 25vw;
+  height: 40vh;
+  left: 6vw;
+  margin-top:65vh;
+}
+
+#windows {
+  width: 40vw;
+  height: 25vh;
+  margin-left:64vw;
+  margin-top:100px;
+  margin-bottom:0px;
+}
+
+#corner {
+  position: absolute;
+  margin-left:20vw;
+  margin-top:100px;
+  width:35vw;
+  z-index: 3;
+  object-fit: cover;
+}
+
+#thirdabout {
+  width: 35vw;
+  height: 20vh;
+  margin-left:13vw;
+  position:absolute;
+  z-index: 2;
+  font-size:1.7vw;
+  color: white;
+  font-family: helvetica, sans-serif,arial;
+  margin-top:11vw;
+}
+
+.hssenioryear {
+  color: white;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size:7vh;
+  width: 60vh;
+  transform: rotate(90deg);
+  position: absolute;
+  margin-left: -25vh;
+  margin-top: 90vh;
+}
+
+#golden {
+  position:absolute;
+  width:33vw;
+  height:35vh;
+  margin-top:29vw;
+  margin-left:60vw;
+  z-index:2;
+}
+
+#night {
+  position:absolute;
+  width:30vw;
+  height:43vh;
+  margin-top:53vw;
+  margin-left:50vw;
+}
+
 }
