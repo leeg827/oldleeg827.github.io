@@ -100,4 +100,15 @@ window.addEventListener("load", function() {
        audio.play();
     }
 
+<<<<<<< Updated upstream
  });    
+=======
+    function play (){
+        audio.play();
+    }
+
+    audio.addEventListener("canplaythrough",play)
+    audio.load()
+
+ });
+>>>>>>> Stashed changes
